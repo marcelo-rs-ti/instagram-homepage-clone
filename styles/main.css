@@ -197,9 +197,18 @@ html, body {
 
 /*media queries*/
 
-@media (max-width: 720px) {
-    * {
+@media (max-width: 880px) {
+
+    .wrapper {
+        width: 100%;
+    }
+    .instagram-columns:nth-child(1) {
         display: none;
+    }
+    
+    .instagram-columns:nth-child(2) {
+        display: block;
+        margin: auto;
     }
 }
 
