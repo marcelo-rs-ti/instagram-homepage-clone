@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+
+.wrapper {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    margin: auto;
+    padding: 30px;
+    width: 900px;
+}
+
+.instagram-columns {
+    width: 48%;
+}
+
+.container-phone {
+    padding: 0;
+    height: 620px;
+    width: 380px;
+    background-image: url('/images/instagram-phone.png');
+    background-size: 100%;
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.topphone {
+    height: 14.6%;
+    margin: 0;
+}
+
+.midphone {
+    height: 71.5%;
+    display: flex;
+}
+
+.leftphone {
+    width: 28.5%;
+    height: 100%;
+}
+
+.screenphone {
+    width: 66.6%;
+    height: 100%;
+    background-image: url('/images/print.jpg');
+    background-size: 100%;
+}
+
+.instagram-columns:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 95%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.instagram-phones-img {
+    height: 90%;
+    margin: auto;
+}
+
+.instagram-columns:nth-child(2)>div {
+    padding: 1rem; 
+    margin-bottom: 0.5rem;
+}
+
+.instagram-continue {
+    border: 1px solid #dddddd;
+}
+
+.instagram-logo {
+    height: 60px;
+    /* background-color: pink; */
+    background-image: url(/images/sprite.png);
+    background-position-y: 1px;
+    background-position-x: 243px;
+    background-size: 250%;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.instagram-form-auth form {
+    margin-bottom: 1rem;
+}
+
+.wrapper-input {
+}
+
+.container-input {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid silver;
+    margin-bottom: 1rem;
+    background-color: rgb(240, 247, 250);
+    border-radius: 4px;
+}
+
+.container-input .input {
+    padding: 5px;
+}
+
+.container-input input {
+    width: 100%;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+}
+
+.input-label {
+    font-size: 0.8rem;
+}
+
+.container-input .icon {
+    background-color: #fff;
+    border-left: 1px solid #bebebe;
+    border-radius: 0 5px 5px 0;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 100%;
+    padding: 1rem;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.primary {
+    background-color: #0095f6;
+    color: #fff;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin-bottom: 1rem;
+}
+
+.line {
+    margin-bottom: 1rem;
+}
+
+.lines {
+    border-top: 1px solid rgb(214, 214, 214);
+    width: 40%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.getapplink{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.instagram-register {
+    border: 1px solid #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.app-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-link {
+    width: 45%;
+}
+
+.app-link img {
+    width: 100%;
+}
+
+/*media queries*/
+
+@media (max-width: 720px) {
+    * {
+        display: none;
+    }
+}
+
